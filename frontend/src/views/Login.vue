@@ -36,7 +36,7 @@ export default {
         console.log(result);
         localStorage.setItem('name', result.name);
         console.log(localStorage.getItem('name'));
-        await router.push('/');
+        await router.push('/home');
       } else {
         console.error('Login failed');
       }
